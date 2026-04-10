@@ -13,17 +13,16 @@
         <div class="hero-top">
           <img src="images/archer.svg" alt="Cung thủ" class="hero-archer" />
           <div>
-            <span class="eyebrow">Bản demo mobile</span>
             <h1>Cung thủ giữa đồng cỏ</h1>
-            <p class="lead">Giữ và kéo để ngắm, thả tay để bắn. Trúng chim câu hỏi thì mở câu trắc nghiệm, trúng chim buff thì nhận hiệu ứng bất ngờ.</p>
+            <p class="lead">Giữ và kéo để ngắm, thả tay để bắn. Trúng chim câu hỏi để giải đố, trúng chim buff để nhận hiệu ứng đặc biệt.</p>
           </div>
         </div>
 
         <div class="start-stats">
           <div class="stat-pill">10 câu hỏi</div>
           <div class="stat-pill">12 chim tổng cộng</div>
-          <div class="stat-pill">2 chim buff ngẫu nhiên</div>
-          <div class="stat-pill">Có thể bắn hụt</div>
+          <div class="stat-pill">2 chim buff</div>
+          <div class="stat-pill">Vật lý thực tế</div>
         </div>
 
         <div class="start-actions">
@@ -92,7 +91,6 @@
 
     <section id="resultScreen" class="screen">
       <div class="result-card glass">
-        <span class="eyebrow">Kết thúc lượt chơi</span>
         <h2 id="resultTitle">Kết quả</h2>
         <p id="resultDesc" class="lead small"></p>
         <div class="result-grid">
@@ -112,20 +110,19 @@
     <div class="modal-card glass compact">
       <div class="modal-top">
         <div>
-          <span class="eyebrow">Hướng dẫn</span>
           <h2 id="guideTitle">Cách chơi nhanh</h2>
         </div>
         <button id="closeGuideBtn" class="icon-btn" type="button">×</button>
       </div>
       <div class="guide-list">
         <div class="guide-item"><span>1</span><p>Giữ ngón tay trên vùng trời để <strong>giương cung</strong>.</p></div>
-        <div class="guide-item"><span>2</span><p>Kéo theo hướng muốn bắn, rồi <strong>thả tay</strong> để bắn mũi tên.</p></div>
-        <div class="guide-item"><span>3</span><p>Bắn trúng chim câu hỏi sẽ mở 1 câu trắc nghiệm. Trả lời sai thì mất 1 máu.</p></div>
-        <div class="guide-item"><span>4</span><p>Game có 10 chim câu hỏi và 2 chim buff. Mũi tên có thể <strong>bắn hụt</strong>.</p></div>
+        <div class="guide-item"><span>2</span><p>Kéo ngược lại hướng muốn bắn để lấy lực, rồi <strong>thả tay</strong>.</p></div>
+        <div class="guide-item"><span>3</span><p>Bắn trúng chim câu hỏi để mở bài tập. Sai sẽ bị trừ 1 máu.</p></div>
+        <div class="guide-item"><span>4</span><p>Sử dụng chim buff để tăng điểm hoặc hỗ trợ chơi.</p></div>
       </div>
       <div class="start-actions modal-actions">
-        <button id="guideStartBtn" class="btn btn-primary" type="button">Bắt đầu trò chơi</button>
-        <button id="guideCloseTextBtn" class="btn btn-secondary" type="button">Đóng hướng dẫn</button>
+        <button id="guideStartBtn" class="btn btn-primary" type="button">Bắt đầu</button>
+        <button id="guideCloseTextBtn" class="btn btn-secondary" type="button">Đóng</button>
       </div>
     </div>
   </div>
@@ -134,7 +131,7 @@
     <div class="modal-card glass question-card">
       <div class="modal-top">
         <div>
-          <span id="questionMeta" class="eyebrow">Câu hỏi</span>
+          <span id="questionMeta" class="eyebrow">Trắc nghiệm Vật Lí</span>
           <h2 id="questionTitle">Câu hỏi</h2>
         </div>
       </div>
